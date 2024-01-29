@@ -1,8 +1,8 @@
-const counterElement = document.querySelector('counter');
-const increaseButton = document.querySelector('increase-button')
-const decreaseButton = document.querySelector('decrease-button')
+const counterElement = document.querySelector('.counter');
+const increaseButton = document.querySelector('.increase-button')
+const decreaseButton = document.querySelector('.decrease-button')
 
-const counterValue = 0
+let counterValue = 0
 
 function updateCounter(){
 	counterElement.innerHTML = counterValue;
