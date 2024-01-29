@@ -16,7 +16,8 @@ body{
 	/*margin-top: 10%;*/
 }
 
-.control-button{
+.increase-button,
+.decrease-button{
 	background-color: green;
 	margin:2rem;
 }
